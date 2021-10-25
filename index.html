@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Title of Page-->
+    <title>Simply Fit Gym</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Load Bootstrap Dependencies-->
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/jquery.min.js"></script>
+    <script src="bootstrap/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script> 
+    <!--Load stylesheet for index.html-->
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <header>
+    <!--Navbar at Top of Page-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
+        <!--SimplyFit fake logo/brand-->
+        <a class="navbar-brand">
+            <div class="logo-image">
+                <img src="img/dumbbell-icon.jpg" class="img-fluid">
+          </div>
+          <!--Brand name-->
+          <h1>Simply Fit</h1>
+        </a>
+        <!--Toggler button for navbar-->
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <!--Navbar Menu Items:-->
+            <ul class="navbar-nav mr-auto">
+                <!--Home-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <!--About-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About<span class="sr-only">(current)</span></a>
+                </li>
+                <!--Contact-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#contact">Contact<span class="sr-only">(current)</span></a>
+                </li>
+                <!--Schedule-->
+                <li class="nav-item active">
+                    <a class="nav-link" href="#schedule">Class Schedule<span class="sr-only">(current)</span></a>
+                </li>
+                <!--End of navbar menu-->
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <!--Hero Image-->
+    <img src="img/hero_img.jpg" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt="bar with weights">
+    <!--Welcome Banner-->
+    <h2>Welcome to Simply Fit!</h2>
+    <!--Introduction section for Simply Fit-->
+    <div class="container-fluid" id="introduction">
+        <p>We here at simply fit strive to make it easy for new and veteran gym-goers alike to get what they want out of a workout</p>
+        <p><a href="#">Book a free visit</a> or <a href="#">sign up for a membership</a> and we'll make your experience as simple as possible</p>
+    </div>
+    <!--Section showcasing Simply Fit Coaches-->
+    <div class="container-fluid" id="meet our coaches">
+        <!--Section Banner-->
+        <h3>Meet our coaches!</h3>
+        <!--Deck of Cards of simplyfit coaches-->
+        <div class="card-deck">
+            <!--Coach1: Richard Roe-->
+            <div class="card">
+                <img class="card-img-top" src="img/coach1.jpg" alt="Richard Roe" id="richard_roe_img">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="#richard_roe_info" class="card-link">Richard Roe</a></h4>
+                </div>
+            </div>
+            <!--Coach2: Mary Sue-->
+            <div class="card">
+                <img class="card-img-top" src="img/coach2.jpg" alt="Richard Roe" id="mary_sue_img">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="#mary_sue_info" class="card-link">Mary Sue</a></h4>
+                </div>
+            </div>
+            <!--Coach3: Jane Doe-->
+            <div class="card">
+                <img class="card-img-top" src="img/coach3.jpg" alt="Jane Doe" id="jane_doe_img">
+                <div class="card-body">
+                    <h4 class="card-title"><a href="#jane_doe_info" class="card-link">Jane Doe</a></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--contact section-->
+    <div class="container-fluid" id="contact_info">
+        <!--Fake Contact Information-->
+        <h3>Contact us: </h3>
+        <p>Phone: 863-555-0109</p>
+        <p>Email: simplyfit@notarealbusiness.com</p>
+    </div>
+    <footer>
+        <!--Call to Action Buttons-->
+        <div class="btn-group" role="group" id="footer-btn-group">
+            <button type="button" class="btn btn-primary" id="membershipBtn">Purchase a Membership</button>
+            <button type="button" class="btn btn-primary" id="classBtn">Register for a Class</button>
+        </div>
+        <p><a href="#">Home</a> | <a href="#">Our Blog</a> | <a href="#">Shop</a></p>
+        <p><em>Copyright &copy; 2021 Simply Fit</em></p>
+    <!--End of Footer-->
+    </footer>
+</body>
+
+</html>
